@@ -1,0 +1,16 @@
+# What Is Software??
+Ans: Software Is Nothing But Set Of Programs which Are Known As Software.
+     It Is A Part Of A computer, Which Cannot Be Touched.
+     Software tells a computer what to do and how to do.
+
+# What Are The Types Of Application??
+Ans: 1) Desktop Application
+     2) Web Application
+     3) Mobile Application
+
+# What Is Programing??
+Ans: Programing is the process of creating a set of instructions that tell a computer how to perform a task.
+     Programming can be done using a variety of computer languages such as C,C++,JAVA,PYTHON, and many more.
+
+# What Is Python??
+Ans: Python is a higher level, most popular object oriented programing language.
