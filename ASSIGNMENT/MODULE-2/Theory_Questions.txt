@@ -1,0 +1,12 @@
+4) How memory is managed in Python?
+Ans--> In python, memory is managed by the python memory manager.
+	It also have automatic garbage collection which free the memory.
+
+5) What is the purpose continue statement in python?
+Ans--> Continue statement used to skip current statement and it will continue the loop.
+
+14) What are negative indexes and why are they used?
+Ans--> A Negative Index Is An Index That Counts From The End Of The List Rather Than From The Beginning.
+       E.g: -1 Gives The Last Element Of List, -2 Gives The Second Last Element Of The List.
+
+
