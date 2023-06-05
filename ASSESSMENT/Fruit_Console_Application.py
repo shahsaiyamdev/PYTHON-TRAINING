@@ -20,8 +20,8 @@ while status:
                     Fruit Market Manager 
 
                     3) Add Fruit Stock
-                    4) View Fruit Stock
-                    5) Update Fruit Stock
+                    4) Update Fruit Stock
+                    5) View Fruit Stock
 
             """
             print(menu1)
@@ -53,16 +53,35 @@ while status:
                     if manager_choice == "y" or manager_choice == "Y":
                         fruit_market_manager_status = True
                     else:
-                        fruit_market_manager_status = False
+                        fruit_market_manager_status = False  
             
+
+            elif choice1  == 4:
+                    spec1 = {} #dictionary for specification  or inner dictionary
+                    print("UPDATE FRUIT STOCK")
+                    print("---------------------------")
+
+                    #accpet fruit details from fruit market manager
+                    fruit_name = input("ENTER FRUIT NAME : ")
+                    fruit_qty = int(input("ENTER QTY (IN KG) : "))
+                    fruit_price = int(input("ENTER FRUIT PRICE : "))
             
-            elif choice1 == 4 :
-                for key,value in stock.items():
-                    print(key)
-                    for  k,v in spec.items():
-                        print(k," = ",v)
-                    print()
-   
+                    old_qty = stock[fruit_name]['qty']
+
+                    #creating nested dictionary first
+                    spec1['qty'] = old_qty+ fruit_qty         #"qty" : 5
+                    spec1['price'] = fruit_price     # "price" : 100
+
+                    #creating outer dictionary
+                    stock[fruit_name]  = spec1     #{Apples : {"qty" : 5,"price" : 100}}
+
+                    
+
+            elif choice1 == 5 :  
+                for k, v in stock.items():
+                    print(k , " : ", v) 
+                
+
     else:    
-        print("Customer")
+        print("Customer")                
 
